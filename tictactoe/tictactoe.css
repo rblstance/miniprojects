@@ -1,0 +1,41 @@
+*{
+   margin: none;
+   padding: none;
+}
+
+body{
+    background-image: url("images/title.png");
+    background-size: contain;
+}
+
+h1{
+    margin: 0 auto;
+    width: 70vw;
+    height: fit-content;
+}
+
+#title{
+    margin-bottom: 0;
+    width: 70vw;
+}
+
+.map{
+    margin: 0 auto;
+    width: 420px;
+}
+
+.row{
+    display: flex;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: none;
+    margin: 10px;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+}
