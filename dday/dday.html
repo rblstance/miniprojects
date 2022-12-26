@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dday.css">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // 실시간으로 현재 시간 보여주는 타이머
+    // form 안에서 디데이 연산 할 날짜 입력 받아(input 속성 중 value)
+    // 이벤트명과 디데이 표기하는 서비스
+    </script>
+    
+    <div class="timer">
+        <div class="date">
+            <span id="year"></span>
+            <span id="month"></span>
+            <span id="day"></span>
+        </div>
+        <div class="time">
+            <span id="hour"></span>
+            <span id="min"></span>
+            <span id="sec"></span>
+        </div>
+    </div>
+    
+    <div>
+        <form>
+            <input id="name" type="text" placeholder="할 일" required>
+            <input id="start" type="date" required>
+            <input id="end" type="date" required>
+            <input id="submit" type="submit" value="OK">
+        </form>
+    </div>
+
+    <ol class="list"></ol>
+
+    <script src="dday.js"></script>
+</body>
+</html>
